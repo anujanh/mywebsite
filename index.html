@@ -1,16 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Anuja Havele - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    .portfolio-item {
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #222;
+      color: #fff;}
+  </style>
 </head>
 <body>
-  <h1>Anuja Havele</h1>
-  <p>Welcome to my portfolio!</p>
-  <nav>
-    <a href="projects.html">Projects</a> |
-    <a href="resume.pdf" target="_blank">Resume</a>
-  </nav>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Problem Solver</p>
+    <nav>
+      <a href="#resume">Resume</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
+
+  <section id="resume">
+    <h2>📄 Resume</h2>
+    <p><strong>Education:</strong> B.Tech in Computer Science, XYZ University</p>
+    <p><strong>Experience:</strong> Front-End Developer at ABC Corp (2022–Present)</p>
+    <p><strong>Download Resume:</strong> <a href="resume.pdf" target="_blank">Click here</a></p>
+  </section><section id="portfolio">
+    <h2>🎨 Portfolio</h2>
+    <div class="portfolio-item">
+      <h3>Project One</h3>
+      <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+      <a href="https://yourprojectlink.com" target="_blank">View Project</a>
+    </div>
+    <div class="portfolio-item">
+      <h3>Project Two</h3>
+      <p>Mobile app UI design using Figma and Adobe XD.</p>
+      <a href="https://yourdesignlink.com" target="_blank">View Design</a>
+    </div>
+  </section><section id="skills">
+    <h2>🛠️ Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Vue.js</li>
+      <li>Node.js, Express</li>
+      <li>Git, GitHub</li>
+      <li>UI/UX Design</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name | Connect on <a href="https://linkedin.com/in/yourprofile" style="color: #4db8ff;">LinkedIn</a></p>
+  </footer>
+
 </body>
 </html>
